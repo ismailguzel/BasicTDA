@@ -9,7 +9,7 @@ This is just easy stable install common TDA packages such as teaspoon, ripser, p
   - `curl -O "https://raw.githubusercontent.com/ismailguzel/BasicTDA/main/BasicTDA.yml"`
 
 * Create new environment with this command
-  - `conda env create --prefix ./anaconda3/envs --file BasicTDA.yml --force`
+  - `conda env create --prefix ./anaconda3/envs/BasicTDA --file BasicTDA.yml --force`
 
 * Then just activate environment with typing
   - `conda activate BasicTDA`
