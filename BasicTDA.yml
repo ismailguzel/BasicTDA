@@ -218,4 +218,3 @@ dependencies:
     - velour==2020.11.18
     - webencodings==0.5.1
     - widgetsnbextension==3.6.0
-prefix: /home/iguzel/anaconda3/envs/BasicTDA
