@@ -2,13 +2,15 @@
 
 I am gald to share my environment for Topological Data Analysis tools. This is just easy stable install common TDA packages such as teaspoon, ripser, persim, tadasets, giotto-tda, gudhi, dionysus, velour, bats-tda  for Ubuntu version 22.04 with python 3.9 version.
 
+**Do not forget change ... with your user name**
+* To copy file to local on Downloads, open the terminal and type
 
-* To copy file to local, open the terminal and type
-
-  - `curl -O "https://raw.githubusercontent.com/ismailguzel/BasicTDA/main/BasicTDA.yml"`
+  - `curl "https://raw.githubusercontent.com/ismailguzel/BasicTDA/main/BasicTDA.yml" --output /home/.../Downloads/BasicTDA.yml
+`
 
 * Create new environment with this command
-  - `conda env create --prefix ./anaconda3/envs/BasicTDA --file BasicTDA.yml --force`
+  - `conda env create --prefix /home/.../anaconda3/envs/BasicTDA --file /home/.../Downloads/BasicTDA.yml --force
+`
 
 * Then just activate environment with typing
   - `conda activate BasicTDA`
